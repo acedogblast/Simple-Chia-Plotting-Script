@@ -11,6 +11,6 @@ TEMP_2_DIR=/mnt/chia_temp
 # FINAL_DIR is the final destination directory.
 FINAL_DIR=/mnt/chia_plots
 # LOG_DIR is the loging directory.
-LOG_DIR=/mnt/chia_plots
+LOG_DIR=/mnt/chia_plots/log.txt
 
 chia plots create -k $K_SIZE -n $NUM_PLOTS -b $BUFFER -r $THREADS -u $BUCKETS -t $TEMP_DIR -2 $TEMP_2_DIR -d $FINAL_DIR | tee -a $LOG_DIR
