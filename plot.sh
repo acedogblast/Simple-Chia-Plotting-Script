@@ -7,7 +7,7 @@ BUCKETS=128 # The number of buckets.
 CHIA=/home/$USER/Apps/chia-blockchain/ # Your chia-blockchain directory
 
 # activate chia venn
-cd $USER
+cd $CHIA
 . ./activate
 
 # TEMP_DIR is the temporary directory for plot creation.
