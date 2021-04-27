@@ -4,6 +4,12 @@ BUFFER=8192 # The memory buffer size in MiB. Defualt is 4608.
 THREADS=2   # The number of threads. No need over 2.
 BUCKETS=128 # The number of buckets.
 
+CHIA=/home/$USER/Apps/chia-blockchain/ # Your chia-blockchain directory
+
+# activate chia venn
+cd $USER
+. ./activate
+
 # TEMP_DIR is the temporary directory for plot creation.
 TEMP_DIR=/mnt/chia_temp
 # TEMP_2_DIR is the second temporary directory.
